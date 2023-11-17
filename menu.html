@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+
+
+<style>
+
+    .form-Registro {
+      margin: auto;
+      margin-top: 50px; /* Espacio superior */  
+    }
+  </style>
+
+
+</head>
+<body>
+    <nav>
+        <div class="menu">         
+
+          <div class="logo"><a href="#">Biblioteca</a></div>
+          <ul class="nav-links">            
+            <li><a href="#">Registrarse</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="contenedor form-Registro">
+      <p class="title">Nuevo Usuario</p>
+
+      <form class="form" action="InsertarDatos" method="post">                    
+          
+      <input type="text" id="nombre" name="nombre" class="input" placeholder="Nombre "required>
+      <input type="text" id="apellido" name="apellido" class="input" placeholder="Apellidos" required>                    
+      <input type="text" id="dni" name="dni" class="input" placeholder="DNI" required>                    
+      <input type="text" id="telefono" name="telefono" class="input" placeholder="Telefono" required>                   
+      <input type="text" id="email" name="email" class="input" placeholder="Email" required>                    
+      <input type="text" id="clave" name="clave" class="input" placeholder="Clave" required>                    
+      <input type="password" id="contraseña" name="contraseña" class="input" placeholder="Contraseña">
+      <input type="password" id="confContraseña" name="confContraseña" class="input" placeholder="Confirmar Contraseña">
+      <button type="submit" class="form-btn">Registrarse</button>                 
+      </form>
+    </div>
+
+</body>
+</html>
