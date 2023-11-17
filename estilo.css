@@ -8,6 +8,8 @@
     border-radius: 10px;
     box-sizing: border-box;
     padding: 20px 30px;
+    margin: auto;
+    margin-top: 50px; /* Espacio superior */  
   }
   .form-login {/*form-login*/
     width: 350px;
@@ -16,7 +18,8 @@
 
   .form-Registro {
     width: 350px;
-    height: 650px;
+    height: 600px;
+
   }
 
   .form-olvidado {
@@ -54,6 +57,7 @@
   
   .form-btn {/*form-boton*/
     padding: 10px 15px;
+    width: 100%;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border-radius: 20px;
@@ -135,4 +139,10 @@ p {
 /* Cambiar el tamaño de los encabezados de nivel 1 */
 h1 {
     font-size: 24px; /* Tamaño del texto para los encabezados h1 */
+}
+
+#mensajeContraseña{
+
+  text-align: center;
+  margin-top: -8px;
 }
